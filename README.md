@@ -26,16 +26,30 @@ https://user-images.githubusercontent.com/6877923/123006036-64e2e780-d3b7-11eb-9
    ```bash
    pip install -r requirements.txt
    ```
+   ```
    *(Ensure you have `PyQt6`, `sounddevice`, `numpy`, `openai`, `watchdog` installed)*
 
+   **🪟 Windows Users**:
+   1. Double-click `install_windows.bat` to automatically set up the environment.
+   2. Ensure [FFmpeg](https://ffmpeg.org/download.html) is installed and added to your PATH.
 
 ## Usage
 
 ### 🚀 Start the App
-Run the reloader script to enable hot-reloading:
+### 🚀 Start the App
+**macOS / Linux**:
+Run the installer once:
 ```bash
-python reloader.py
+./install_mac.sh
 ```
+Then start the app:
+```bash
+./start_mac.sh
+```
+
+**Windows**:
+Double-click `start_windows.bat`
+
 *(Or run `python main.py` for a single session)*
 
 ### 🎮 Controls
